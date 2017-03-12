@@ -1,0 +1,211 @@
+---
+layout: false
+title: resume
+date: 2017-02-14 14:43:21
+
+---
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="陈岳凌,简历">
+  <meta name="description" content="陈岳凌简历">
+  <title>陈岳凌-简历</title>
+  
+    <link rel="stylesheet" href="/asset/styles/resume.css" /> 
+
+</head>
+<body class="" data-stage="">
+
+
+    <div class="container">
+      <div class="header">
+        <div class="info">
+          <h2>陈岳凌</h2>
+          <p>Java 开发工程师</p>
+        </div>
+        <div class="detail">
+          <p class="phone"><i class="icon icon-phone"></i>137 - 2620 - 1274</p>
+          <p class="mail"><i class="icon icon-email"></i>chen_yueling@163.com</p>
+          <p class="web"><i class="icon icon-website"></i>https://github.com/chenyueling</p>
+          <p class="school"><i class="icon icon-school"></i>北京理工大学珠海学院 (软件工程)</p>
+        </div>  
+      </div>
+      <div class="section experience">
+        
+          <h3 class="title">工作经历</h3>
+<div class="main">
+  <ul class="lists">
+    
+      <li>
+        <div class="time">
+          2016.2 - 至今
+        </div>
+        <div class="info">
+          <h4>Java 开发工程师</h4>
+          <p class="company">美丽加互联网科技有限公司(mljia)</p>
+          <p class="desc">担任 shop 组组长，负责系统店铺模块主要业务逻辑开发与维护。4 -7 月参与项目重     构，重写 saas 平台用户鉴权系统。使用 WebSocket 实现组件，公司各系统直接对用户进行实时信息推送。用领域驱动模型（DDD）模式进行微信砍价与短信计费系统开发。期间编写代码生成器，可生成基本业务与框架代码，提高开发效率。</p>
+        </div>    
+      </li>  
+    
+      <li>
+        <div class="time">
+          2014.8 - 2015.2
+        </div>
+        <div class="info">
+          <h4>Java 开发工程师(实习)</h4>
+          <p class="company">极光推送(JPush)</p>
+          <p class="desc">移动应用开发组，参与系统设计开发与发布产品，主要职责参与对主服务端业务流程设计，设计定时模块对编写的爬虫子模块进行调度，定时向主服务端发送抓取到的第三方网站数据。在实习期间，学到了规范的工作流程，在编码上也更加规范，对自己以后从事的工作方向有了具体的认识，收获良多。</p>
+        </div>    
+      </li>  
+    
+  </ul>  
+</div>  
+        
+      </div>
+      <div class="section">
+        
+          <h3 class="title">项目经历「部分」</h3>
+<div class="main">
+  <ul class="lists">
+    
+      <li>
+        <div class="time">
+          2016.10 - 2017.1
+        </div>
+        <div class="info">
+          <h4>短信计费系统</h4>
+          <p class="company"></p>
+          <p class="desc">短信计费系统日均处理短消息达10w，通过设计异步调用的方式，避免高峰期并发量大时数据库连接池耗尽问题，同时也达到系统高可用，服务器宕机时保证数据不丢失，调用方不受影响。</p>
+        </div>    
+      </li>  
+    
+      <li>
+        <div class="time">
+          2016.9 - 2016.10
+        </div>
+        <div class="info">
+          <h4>长连接基础组件</h4>
+          <p class="company"></p>
+          <p class="desc">使用 NIO 为基础的 websocket 框架，经过压力测试单机连接数可达20w，拓展框架实现自定义注解实现自动装配，提高开发效率。</p>
+        </div>    
+      </li>  
+    
+      <li>
+        <div class="time">
+          2015.2 - 2015.6
+        </div>
+        <div class="info">
+          <h4>聚合订阅系统</h4>
+          <p class="company"></p>
+          <p class="desc">编写爬虫爬取NBA，LOFTER，豆瓣，优酷，中国地震网，彩票，天气，今日头条，RSS等多种信息源，聚合在服务器上，并编写 Android 客户端进行订阅展示。</p>
+        </div>    
+      </li>  
+    
+      <li>
+        <div class="time">
+          2014.1 - 2014.4
+        </div>
+        <div class="info">
+          <h4>京涛海纳工作室门户网站（http://ucs.zhbit.com）</h4>
+          <p class="company"></p>
+          <p class="desc">校园门户，日均 UV1000+，发布多年一直运行稳定。站内上传图片水印处理，实现网页静态化，大大提高访问速度且更容易被搜索引擎收录。</p>
+        </div>    
+      </li>  
+    
+      <li>
+        <div class="time">
+          2013.9 - 2014.1
+        </div>
+        <div class="info">
+          <h4>北理无限 - 校园学生课表，成绩等多功能查询 app</h4>
+          <p class="company"></p>
+          <p class="desc">校内学生信息查询APP，主要负责服务端。绕过正方教务系统登录验证码限制，模拟用户登录，获取学生课表，学生成绩等信息。2014年春节正方教务系统外网访问关闭，北理无限成为唯一的成绩查询工具，日均 UV5000+。</p>
+        </div>    
+      </li>  
+    
+  </ul>  
+</div>  
+        
+      </div>  
+      <div class="section">
+        
+          <h3>专业技能</h3>
+          <div class="main">
+            <ul class="skill-lists">
+              
+                <li>
+                  <p class="float-left">Java, SQL, SSH, Spring MVC, Mybatis, Spring Boot, JPA  </p>
+                  <p class="float-right">熟练</p>  
+                </li>  
+              
+                <li>
+                  <p class="float-left">JMS, RPC 框架, Netty, Redis, MySQL</p>
+                  <p class="float-right">熟练</p>  
+                </li>  
+              
+                <li>
+                  <p class="float-left">C/C ++, Python, node.js, ZooKeeper, RxJava</p>
+                  <p class="float-right">了解</p>  
+                </li>  
+              
+                <li>
+                  <p class="float-left">Windows, Linux下开发, SVN/Git, Maven, Intellij Idea</p>
+                  <p class="float-right">熟练</p>  
+                </li>  
+              
+                <li>
+                  <p class="float-left">计算机网络, 数据结构, 操作系统, 设计模式, 软件工程, 算法, UML</p>
+                  <p class="float-right">理论课程</p>  
+                </li>  
+              
+            </ul>
+          </div> 
+        
+      </div>  
+    </div>  
+    <div class="container">
+	   <div class="section">
+        
+          <h3 class="title">解决问题</h3>
+<div class="main">
+ 
+    
+   
+
+        <div class="info">
+     
+     <ol>
+         <li>前端同步后端实时性的信息，Http通过轮询的方式对服务器资源开销大，通过WebSocket协议实现前端与后端的长连接，解决频繁轮询消耗大。还可实现类似微信桌面版扫码登录等多种功能，丰富了业务交互场景的多样性。</li>
+		 <li>在全面抛弃session的分布式架构下，解决图形验证码后端校验问题。根据html img标签可直接展示Base64编码图片的特性，设计实现了，不依赖前端逻辑，session，的图形验证。</li>
+		
+    
+    
+    
+    <li>分布式架构下，Nginx负载均衡随机访问策略下session失效问题，通过Redis实现分布式session。</li>
+    <li>公司项目接口与实现代码在一个工程下，每次需要手动打包接口，发布到内网仓库。通过对项目结构调整，使用maven父子结构组织项目，将接口抽取成独立moudles,可以直接deploy接口到私有仓库，避免了繁琐的手动发布接口包，减少手工发布错误，提升工作效率。</li>
+    <li>使用jenkis持续集成，Linux编译环境与本地Windos环境需要使用不同的maven配置，通过profile特性解决了每次提交代码需要改动maven配置。</li>
+    <li>推动公司使用RESTFul风格进行接口命名且使用JSON作为前后端传输数据格式，将AccessToken放在请求头中等。提高了接口安全性，可读性，也简化文档，降低前后端沟通成本。</li>
+    <li>修改注册登录等敏感接口使用明文传输，采用RSA对数据进行非对称加密，提高系统安全性。</li>
+    <li>线上环境频繁出现FGC,通过dump文件的分析与使用火焰图，jvisualvm工具对运行程序进行分析，定位解决了内存溢出问题。</li>
+    <li>调研分布式配置管理平台，使用开源项目disconf解决了多台机器配置更新同步问题。阅读源码了解其配置更新回调流程进行修改，使其方便实际项目调用。</li>
+    <li>向公司推荐IDEA编辑器，POSTMAN等实用开发工具。总结并分享IDEA使用技巧，如常用代码模板，快速生成代码，提高工作效率。</li>
+    
+        
+  </ol>  
+        </div>    
+
+</div>   
+</div>   
+ <div class="section">
+	 <h3 class="title">个人描述</h3>
+    
+     <p>自带翻墙技能，善用搜索引擎，喜欢与朋友讨论技术，乐于分享，代码上有洁癖，idea键盘流，爱折腾，追求效率。</p>
+	  </div>
+	</div>  
+</body>
+</html>
+
+
+
