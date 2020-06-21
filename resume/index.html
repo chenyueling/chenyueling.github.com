@@ -6,7 +6,9 @@
     <title>Markdown在线编辑器 - www.MdEditor.com</title>
     <link rel="shortcut icon" href="https://www.mdeditor.com/images/logos/favicon.ico" type="image/x-icon" />
     <style>
-    
+body {
+    margin: 0;
+}
 /*! github-markdown-css | The MIT License (MIT) | Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com) | https://github.com/sindresorhus/github-markdown-css */
 @font-face {
     font-family: octicons-anchor;
@@ -1136,7 +1138,11 @@ pre {
     margin-bottom: 8px;
 }
 .editormd-html-preview, .editormd-preview-container {
-    font-size: 13px;
+    font-size: 13px!important;
+    line-height: 1.5;
+}
+.editormd-html-preview blockquote, .editormd-preview-container blockquote {
+    font-size: 13px!important;
     line-height: 1.5;
 }
     </style>
